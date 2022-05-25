@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+      <a href="#" class="logo"
+        ><img src="image/logo-negro.png" alt="" />
+        <p>osu Store</p></a
+      >
+
+      <nav class="navbar">
+        <a href="index.html">Inicio</a>
+        <a href="caracteristicas.html">Características</a>
+        <a href="productos.html">Productos</a>
+        <a href="#categories">Categorias</a>
+        <a href="#review">Review</a>
+      </nav>
+
+      <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+      </div>
+
+      <form action="" class="search-form">
+        <input
+          type="search"
+          id="search-box"
+          placeholder="Ingrese lo que quiere buscar"
+        />
+        <label for="search-box" class="fas fa-search"></label>
+      </form>
+
+      <div class="shopping-cart">
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="image/macbook.jpg" alt="" />
+          <div class="content">
+            <h3>Macbook Pro Mid (2021) 14" M1 Pro</h3>
+            <span class="price">Gs. 20.306.781</span>
+            <span class="quantity">Can: 1</span>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="image/pocox3pro.jpg" alt="" />
+          <div class="content">
+            <h3>Xiaomi Poco X3 Pro</h3>
+            <span class="price">Gs. 2.306.449</span>
+            <span class="quantity">Can: 1</span>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="image/rtx.jpg" alt="" />
+          <div class="content">
+            <h3>RTX 3090 GamingPro 24 GB GDDR6x</h3>
+            <span class="price">Gs. 16.588.050</span>
+            <span class="quantity">Can: 1</span>
+          </div>
+        </div>
+        <div class="total">Total: Dos Riñones</div>
+        <a href="#" class="btn">Pagar</a>
+      </div>
+
+      <form action="" class="login-form">
+        <h3>Ingresa Ahora</h3>
+        <input type="email" placeholder="Escribe tu Email" class="box" />
+        <input
+          type="password"
+          placeholder="Escribe tu Contraseña"
+          class="box"
+        />
+        <p>¿Olvidaste tu contraseña? <a href="#">Presiona aquí</a></p>
+        <p>¿No tienes una cuenta? <a href="#">Crea una</a></p>
+        <input type="submit" value="Login" class="btn" />
+      </form>
+    </header>
+    
+    <section class="products" id="products">
+      <h2 class="heading"><span>Productos</span></h2>
+      <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="image/telefonos.jpg" alt="" />
+            <h3>Celulares</h3>
+            <a href="#" class="btn">Ver Productos</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="image/electronicos.jpg" alt="" />
+            <h3>Electrónicos</h3>
+            <a href="#" class="btn">Ver Productos</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="image/notebooks.jpg" alt="" />
+            <h3>Notebook's</h3>
+            <a href="#" class="btn">Ver Productos</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="image/componentes.jpg" alt="" />
+            <h3>Componentes</h3>
+            <a href="#" class="btn">Ver Productos</a>
+          </div>
+        </div> 
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>Josu Market <i class="fas fa-shopping-basket"></i></h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut, ut.
+          </p>
+          <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <h3>contact info</h3>
+          <a href="#" class="links"
+            ><i class="fas fa-phone"></i> +595985954131
+          </a>
+          <a href="#" class="links"
+            ><i class="fas fa-phone"></i> +595985954131
+          </a>
+          <a href="#" class="links"
+            ><i class="fas fa-envelope"></i> josugoirisitaipu@gmail.com
+          </a>
+          <a href="#" class="links"
+            ><i class="fas fa-map-marked-alt"></i> yataity-guairá
+          </a>
+        </div>
+
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="#" class="links"><i class="fas fa-arrow-right"></i> home </a>
+          <a href="#" class="links"
+            ><i class="fas fa-arrow-right"></i> features
+          </a>
+          <a href="#" class="links"
+            ><i class="fas fa-arrow-right"></i> products
+          </a>
+          <a href="#" class="links"
+            ><i class="fas fa-arrow-right"></i> categories
+          </a>
+          <a href="#" class="links"
+            ><i class="fas fa-arrow-right"></i> review
+          </a>
+          <a href="#" class="links"
+            ><i class="fas fa-arrow-right"></i> blogs
+          </a>
+        </div>
+
+        <div class="box">
+          <h3>newsletter</h3>
+          <p>subscribe for latest updates</p>
+          <input type="email" placeholder="your email" class="email" />
+          <input type="submit" value="subscribe" class="btn" />
+          <img src="image/payment.png" class="payment-img" alt="" />
+        </div>
+      </div>
+
+      <div class="credit">
+        created by <span>mr. web designer </span> | all rights reserved
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
