@@ -1,4 +1,8 @@
 let searchForm = document.querySelector(".search-form");
+const siguiente = document.querySelector('.siguiente');
+const anterior = document.querySelector('.anterior');
+const cont1 = document.querySelector('.container-1');
+const cont2 = document.querySelector('.container-2');
 
 document.querySelector("#search-btn").onclick = () => {
   searchForm.classList.toggle("active");
@@ -40,4 +44,14 @@ window.onscroll = () => {
   navbar.classList.remove("active");
   loginForm.classList.remove("active");
 };
+
+siguiente.addEventListener('click', () => {
+  cont1.style.display = "none";
+  cont2.style.display = "flex";
+})
+
+anterior.addEventListener('click', () => {
+  cont2.style.display = "none";
+  cont1.style.display = "flex";
+})
 

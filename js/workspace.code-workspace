@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "..\\.."
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\..\\..\\..\\xampp\\htdocs\\login-php"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\..\\..\\..\\xampp\\htdocs\\web-php"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "e-commerce"
+	}
+}

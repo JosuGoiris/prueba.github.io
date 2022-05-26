@@ -11,10 +11,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
-    />
     <link rel="stylesheet" href="css/styles.css" />
     <title>Document</title>
 </head>
@@ -93,37 +89,32 @@
         <input type="submit" value="Login" class="btn" />
       </form>
     </header>
-
-    <section class="features" id="features">
-      <h2 class="heading"><span>Características</span></h2>
-      <div class="box-container">
-        <div class="box liston">
-          <img src="image/liston.png" alt="" />
-          <h3>Productos de Calidad</h3>
-          <p>
-            Contamos con los mejores productos en el ambiente gamer, oficina, reipotava, con la calidad 100% Paraguayoite
-          </p>
-          <a href="#" class="btn">Leer Más</a>
+    
+    <section class="contacto">
+        <h2 class="heading">¡Ponte en contacto con nosotros!</h2>
+        <div class="box-container">
+            <div class="box box-contacto">
+                <form action="">
+                    <div>
+                        <label for="name">Nombre:</label>
+                        <input class="input-contacto" type="text" name="name" placeholder="Escriba su nombre">
+                    </div>
+                    <div>
+                        <label for="email">Correo:</label>
+                        <input class="input-contacto" type="email" name="email" placeholder="Escriba su correo">
+                    </div>
+                    <div>
+                        <label for="telefono">Número de contacto:</label>
+                        <input class="input-contacto" type="tel" name="telefono" placeholder="Escriba su telefono de contacto">
+                    </div>
+                    <div>
+                        <label for="razon">Razón:</label>
+                        <textarea name="razon" class="textarea-contacto" placeholder="Escriba la razon de contacto"></textarea>
+                    </div>
+                    <button class="btn btn-enviar">Enviar</button>
+                </form>
+            </div>
         </div>
-
-        <div class="box mantenimiento">
-          <img src="image/mantenimiento-png.webp" alt="" />
-          <h3>Servicio de Reparación</h3>
-          <p>
-            Tenemos a los mejores profesionales de la industria del Tech directo de la india
-          </p>
-          <a href="#" class="btn">Leer Más</a>
-        </div>
-
-        <div class="box pago">
-          <img src="image/pago.jpg" alt="" />
-          <h3>Precios muy accesibles</h3>
-          <p>
-            Diversos productos desde lo mas barato por si estas sogue hasta lo mas caro por si sos narco
-          </p>
-          <a href="#" class="btn">Leer Más</a>
-        </div>
-      </div>
     </section>
 
     <section class="footer">
@@ -156,7 +147,6 @@
 
     </section>
 
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="js/app.js"></script>
 </body>
 </html>
